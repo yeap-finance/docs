@@ -66,9 +66,15 @@ This decoupling means:
 
 The following diagram illustrates this synergy, showing how a single Vault can supply liquidity to various Borrow Protocols, catering to diverse borrower needs:
 
-```
+``` mermaid
+---
+config:
+  look: handDrawn
+  layout: dagre
+  theme: redux
+---
 graph TD
-    subgraph Yeap Finance Ecosystem
+
         Lenders[Lenders]
         V[Vault - Asset A Pool]
         IBTs[IBT - Asset A]
@@ -84,10 +90,10 @@ graph TD
             BP_N[...Other Custom Protocols]
         end
 
-        V -- "Provides Liquidity" --> BP1
-        V -- "Provides Liquidity" --> BP2
-        V -- "Provides Liquidity" --> BP3
-        V -- "Provides Liquidity" --> BP_N
+        V -- "Liquidity" --> BP1
+        V -- "Liquidity" --> BP2
+        V -- "Liquidity" --> BP3
+        V -- "Liquidity" --> BP_N
 
         Borrower_CM[Borrowers - Collateralized/Margin]
         Borrower_LLP[Borrowers - Leveraged LP]
@@ -103,7 +109,7 @@ graph TD
         BP2 -- "Facilitates Borrowing" --> Borrower_LLP
         BP3 -- "Facilitates Borrowing" --> Borrower_FU
         BP_N -- "Facilitates Borrowing" --> Borrower_CN
-    end
+
 
     style V fill:#f9f,stroke:#333,stroke-width:2px
     style BP1 fill:#ccf,stroke:#333,stroke-width:2px
@@ -158,7 +164,13 @@ A single vault's liquidity pool can be accessed via multiple, functionally disti
 
 The diagram below illustrates the flow of the Leveraged LP Token Protocol:
 
-```
+``` mermaid
+---
+config:
+  look: handDrawn
+  layout: elk
+  theme: redux
+---
 graph TD
     subgraph User_Action_Start_LP_Leverage
         U[User]
@@ -204,6 +216,12 @@ graph TD
 The following diagram shows the margin trading flow using the Position Protocol:
 
 ``` mermaid
+---
+config:
+  look: handDrawn
+  layout: elk
+  theme: redux
+---
 graph TD
     U[User]
     PP[Position Protocol]
@@ -288,6 +306,12 @@ The protocol is composed of several key, interoperable smart contract modules:
 The diagram below provides a high-level overview of these smart contract interactions:
 
 ``` mermaid
+---
+config:
+  look: handDrawn
+  layout: dagre
+  theme: redux
+---
 graph LR
     subgraph Users
         Lender[Lender]
@@ -335,7 +359,7 @@ graph LR
     classDef vault fill:#f9f,stroke:#333,stroke-width:2px;
     classDef protocol fill:#ccf,stroke:#333,stroke-width:2px;
     classDef external fill:#cfc,stroke:#333,stroke-width:2px;
-    classDef user fill:#lightgrey,stroke:#333;
+    classDef user fill:#ffc,stroke:#333;
 
     class VC,IRM vault;
     class PP,LLPP,FP,OIC protocol;
@@ -753,7 +777,8 @@ The journey outlined in our comprehensive roadmap—from a secure and robust cor
 **Engage with Yeap Finance:**
 
 * **Explore our Testnet:** \[Link To Be Provided Upon Launch\]
-* **Join our Community:** \[Discord Server Link\] / \[Telegram Group Link\]
+* **Join our Community:** [Yeap Finance Discord](https://discord.gg/6mE7CZ6v) / \[Telegram Group Link\]
+* **Join our Community:**  / \[Telegram Group Link\]
 * **Follow our Updates:** \[Official Twitter/X Profile Link\] / \[Project Blog Link\]
 * **Review our Code (Once Public):** \[GitHub Repository Link\]
 * **Contribute your Ideas & Participate in Governance:** \[Discourse Forum Link / Governance Portal Link\]
