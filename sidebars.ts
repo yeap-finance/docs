@@ -9,40 +9,41 @@ const sidebars = {
   docsSidebar: [
     {
       type: 'category',
-      label: 'Yeap Finance',
-      link: {
-        type: 'generated-index',
-        title: 'Yeap Finance Overview',
-        description: 'Learn about the core concepts and architecture of Yeap Finance, the multi-protocol engine for decentralized lending.',
-        slug: '/overview'
-      },
+      label: 'Yeap Finance', // This category label itself won't be a direct link by default with this structure
+      collapsible: true,     // Optional: allow collapsing
+      collapsed: false,      // Optional: start uncollapsed (so it's open by default)
       items: [
-        'introduction', // Corresponds to docs/introduction.md
-        'architecture', // Corresponds to docs/architecture.md
+        'overview',          // This refers to docs/overview.md (using its id or filename if id is not set)
+        'introduction',      // Corresponds to docs/introduction.md
+        'architecture',      // Corresponds to docs/architecture.md
       ],
     },
     {
       type: 'category',
       label: 'Core Components',
+      collapsible: true,
+      collapsed: true, // Start other categories collapsed if you prefer
       items: [
-        'core-components/vaults', // Corresponds to docs/core-components/vaults.md
-        'core-components/borrow-protocols', // Corresponds to docs/core-components/borrow-protocols.md
-        // Add more items as you create files for sub-sections like IBTs, IRMs etc.
+        'core-components/vaults',
+        'core-components/borrow-protocols',
       ],
     },
     {
       type: 'category',
       label: 'Key Features',
+      collapsible: true,
+      collapsed: true,
       items: [
         'key-features/advanced-customization',
         'key-features/multi-protocol-flexibility',
         'key-features/permissionless-innovation',
-        // Add more features
       ],
     },
      {
       type: 'category',
       label: 'Use Cases',
+      collapsible: true,
+      collapsed: true,
       items: [
         'use-cases/lenders',
         'use-cases/borrowers-strategic-lps',
@@ -50,13 +51,12 @@ const sidebars = {
         'use-cases/vault-creators',
       ],
     },
-    'technical-architecture', // Assuming a single file for now
+    'technical-architecture',
     'governance',
     'security',
-    'tokenomics', // Illustrative, from your whitepaper
+    'tokenomics',
     'roadmap',
-    'community-engagement', // To house the "Engage with Yeap Finance" content
-    // Add more top-level docs or categories here
+    'community-engagement',
   ],
 };
 

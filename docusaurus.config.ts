@@ -79,13 +79,13 @@ const config = {
                                    // If using the JPG: 'img/yeap-logo.jpg'
         },
         items: [
-          {
+/*           {
             type: 'docSidebar',
             sidebarId: 'docsSidebar', // This ID should match the ID in sidebars.js
             position: 'left',
             label: 'Documentation',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'}, // Uncomment if you want a blog
+ */          // {to: '/blog', label: 'Blog', position: 'left'}, // Uncomment if you want a blog
           {
             href: 'https://github.com/yeap-finance/docs',
             label: 'GitHub',
