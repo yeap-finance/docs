@@ -5,7 +5,7 @@ sidebar_label: Interest Rate Customization
 slug: /key-features/advanced-customization
 ---
 
-## 3.1. Advanced Interest Rate Customization
+# Advanced Interest Rate Customization
 
 While many protocols offer basic interest rate models, Yeap Finance provides a framework for deep customization and strategic application, directly benefiting both lenders and borrowers.
 

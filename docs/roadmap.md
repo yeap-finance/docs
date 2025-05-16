@@ -5,24 +5,24 @@ sidebar_label: Roadmap
 slug: /roadmap
 ---
 
-## 9. Roadmap: Charting the Course for Yeap Finance
+# Roadmap: Charting the Course for Yeap Finance
 
 Yeap Finance’s development and rollout are planned in distinct, iterative phases. This roadmap is a living document, subject to adaptation.
 
 ### Phase 1: Foundation & Core Launch (Current Focus/Near Term)
 
 * **[✓] Core Protocol Development**: Vaults, IBTs, initial IRMs, foundational Borrow Protocols (Position, basic Leveraged LP, Flashloan) in Move.
-* **[✓] Security Audits**: Initial comprehensive audits by reputable firms.
-* **[->] Incentivized Testnet Deployment & Community Feedback Loop**:
+* **[✓] Incentivized Testnet Deployment & Community Feedback Loop**:
     * Public testnet with core functionalities (Leveraged LP, margin trading).
     * Faucet, basic frontend.
     * *GTM Element*: Engage power users, gather feedback, run incentivized testing.
+* **[->] Security Audits**: Initial comprehensive audits by reputable firms.
 * **[ ] Mainnet Launch (Minimal Viable Product - MVP)**:
     * Audited core contracts on a target Move-based mainnet.
     * Initial whitelisted assets and LP tokens.
     * Permissionless vault creation for supported assets.
     * User-friendly dApp interface.
-    * *GTM Element*: Coordinate with L1/L2 foundation, target initial liquidity from community.
+    * *GTM Element*: Coordinate with foundation, target initial liquidity from community.
     * *Initial Liquidity Strategy*: Attractive initial APYs, subsidized rates/rewards for key features.
 * **[ ] Community Building & Comprehensive Early Documentation**:
     * Establish active community channels.

@@ -8,9 +8,8 @@ description: Learn about the core concepts and architecture of Yeap Finance, the
 
 # Welcome to Yeap Finance
 
-**Yeap Finance: The Multi-Protocol Engine for Decentralized Lending**
+### The Multi-Protocol Engine for Decentralized Lending
 
-*Version 3.0 – May 15, 2025*
 
 Yeap Finance is an innovative, highly modular decentralized lending protocol engineered to overcome critical shortcomings and inflexibilities prevalent in the current DeFi lending landscape.
 

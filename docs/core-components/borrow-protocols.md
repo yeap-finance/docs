@@ -5,7 +5,7 @@ sidebar_label: Borrow Protocols
 slug: /core-components/borrow-protocols
 ---
 
-## 2.2. Borrow Protocols: Defining Access to Liquidity
+# Borrow Protocols: Defining Access to Liquidity
 
 Borrow Protocols are distinct, modular smart contract systems that interface with a Yeap Finance vault. Each Borrow Protocol defines a specific set of rules, conditions, collateralization requirements (if any), and mechanisms by which users can borrow assets from that vault.
 

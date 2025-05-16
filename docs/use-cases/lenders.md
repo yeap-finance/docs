@@ -5,7 +5,7 @@ sidebar_label: For Lenders
 slug: /use-cases/lenders
 ---
 
-## 7.1. For Lenders (Liquidity Providers Seeking Yield)
+# For Lenders (Liquidity Providers Seeking Yield)
 
 Yeap Finance offers various opportunities for lenders to earn yield on their assets, catering to different risk appetites and financial goals.
 

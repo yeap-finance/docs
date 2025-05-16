@@ -5,11 +5,11 @@ sidebar_label: Governance
 slug: /governance
 ---
 
-## 5. Governance and Decentralization
+# Governance and Decentralization
 
 Yeap Finance is committed to a progressively decentralized governance model, ensuring that the protocol evolves in alignment with the interests of its users and the broader community, fostering resilience and long-term sustainability.
 
-### 5.1. Vault-Level Governance: Empowerment at the Source
+### Vault-Level Governance: Empowerment at the Source
 
 A unique and defining aspect of Yeap Finance is its emphasis on decentralized governance at the individual vault level, providing unprecedented autonomy to vault creators and their communities.
 
@@ -25,7 +25,7 @@ A unique and defining aspect of Yeap Finance is its emphasis on decentralized go
     * **Multisig Control**: For teams or investment groups requiring shared responsibility.
     * **DAO Governance**: For projects or communities managing vaults via token-based voting.
 
-### 5.2. Protocol-Level Governance (Potential Future State with $YEAP Token)
+### Protocol-Level Governance (Potential Future State with $YEAP Token)
 
 While vault-level governance provides immediate decentralization, a native protocol token (e.g., $YEAP) could facilitate broader, protocol-wide governance in the future. Its potential functions would typically involve:
 
@@ -36,7 +36,7 @@ While vault-level governance provides immediate decentralization, a native proto
 * **Oracle Network Selection/Prioritization**: Influencing decisions on supported oracle networks.
 * **Ecosystem Development Initiatives**: Directing resources towards strategic partnerships and community growth.
 
-### 5.3. Path to Full Decentralization
+### Path to Full Decentralization
 
 Yeap Finance is envisioned to transition towards increasing community ownership and control over time. The long-term objective is for $YEAP token holders (if implemented) or a similar robust decentralized mechanism to have ultimate authority over the protocol's evolution.
 
@@ -86,7 +86,7 @@ flowchart TD
     style GovN fill:#lightgreen,stroke:#333,stroke-width:1px
 ```
 
-### 5.4. Smart Contract Upgradeability
+### Smart Contract Upgradeability
 
 Protocol upgrades are essential and will be approached with caution, transparency, and security best practices:
 

@@ -5,7 +5,7 @@ sidebar_label: Architecture
 slug: /architecture
 ---
 
-## 2. Protocol Overview: The Core Architecture
+## Protocol Overview: The Core Architecture
 
 Yeap Finance facilitates seamless, efficient, and highly flexible lending and borrowing of digital assets. Its architecture revolves around two primary, interoperable components: **Vaults** and **Borrow Protocols**.
 

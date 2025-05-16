@@ -5,7 +5,7 @@ sidebar_label: For Borrowers & Strategic LPs
 slug: /use-cases/borrowers-strategic-lps
 ---
 
-## 7.2. For Borrowers & Strategic Liquidity Providers
+# For Borrowers & Strategic Liquidity Providers
 
 Yeap Finance provides powerful tools for borrowers seeking capital and for strategic liquidity providers aiming to enhance their yield generation.
 

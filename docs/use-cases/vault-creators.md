@@ -5,7 +5,7 @@ sidebar_label: For Vault Creators
 slug: /use-cases/vault-creators
 ---
 
-## 7.4. For Vault Creators & Innovators
+# For Vault Creators & Innovators
 
 Yeap Finance's permissionless nature empowers creators and innovators to launch and manage their own lending markets and financial instruments.
 
