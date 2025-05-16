@@ -5,7 +5,7 @@ sidebar_label: For Developers (Flash Loans)
 slug: /use-cases/developers-flash-loans
 ---
 
-## 7.3. For Sophisticated Users & Developers (Flash Loans)
+# For Sophisticated Users & Developers (Flash Loans)
 
 Yeap Finance's Flashloan Protocol offers powerful capabilities for developers and advanced DeFi users to execute complex atomic operations.
 

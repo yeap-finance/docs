@@ -5,7 +5,7 @@ sidebar_label: Community & Conclusion
 slug: /community-engagement
 ---
 
-## 10. Conclusion: Pioneering the Future of Decentralized Lending
+# Conclusion: Pioneering the Future of Decentralized Lending
 
 Yeap Finance is not merely an iteration on existing lending protocols; it represents a foundational redesign of how decentralized lending can operate, meticulously engineered for maximum flexibility, robust security, and profound community empowerment. By directly addressing the inherent limitations of earlier platforms, Yeap Finance offers a significantly more adaptive, efficient, and user-centric approach.
 
@@ -19,16 +19,12 @@ The journey outlined in our roadmap is ambitious but achievable. We are deeply c
 
 Become part of our growing community and stay updated on the latest developments:
 
-* **Explore our Testnet:** \[Link To Be Provided Upon Launch\]
-* **Join our Community:**
-    * [Yeap Finance Discord](https://discord.gg/6mE7CZ6v)
-    * \[Telegram Group Link - TODO: Add Link\]
-* **Follow our Updates:**
-    * \[Official Twitter/X Profile Link - TODO: Add Link\]
-    * \[Project Blog Link - TODO: Add Link\]
-* **Review our Code (Once Public):**
-    * \[GitHub Repository Link - TODO: Add Link\]
-* **Contribute your Ideas & Participate in Governance:**
-    * \[Discourse Forum Link / Governance Portal Link - TODO: Add Link\]
+* **Explore our Testnet:** [Yeap Finance Testnet](https://app.testnet.yeap.finance/)
+* **Join our Community:** [Yeap Finance Discord](https://discord.gg/6mE7CZ6v)
+    <!-- * \[Telegram Group Link - TODO: Add Link\] -->
+* **Follow our Updates on X:** [YeapFinance Official Account](https://x.com/YeapFinance)
+    <!-- * \[Project Blog Link - TODO: Add Link\] -->
+* **Review our Code (Once Public):** [Yeap Finance Github Repo](https://github.com/yeap-finance)
+* **Contribute your Ideas & Participate in Governance:** [Yeap Finance Discord](https://discord.gg/6mE7CZ6v)
 
 Together, let's build a more flexible, accessible, efficient, and powerful decentralized financial future with Yeap Finance.

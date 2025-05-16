@@ -5,7 +5,7 @@ sidebar_label: Multi-Protocol Flexibility
 slug: /key-features/multi-protocol-flexibility
 ---
 
-## 3.2. Unparalleled Flexibility with Multiple Borrow Protocols Per Vault
+# Unparalleled Flexibility with Multiple Borrow Protocols Per Vault
 
 A single vault's liquidity pool can be accessed via multiple, functionally distinct Borrow Protocols simultaneously. This dramatically enhances capital efficiency and use-case versatility.
 

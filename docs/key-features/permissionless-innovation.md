@@ -5,7 +5,7 @@ sidebar_label: Permissionless Innovation
 slug: /key-features/permissionless-innovation
 ---
 
-## 3.3. True Permissionless Innovation via Open Vault Creation
+# True Permissionless Innovation via Open Vault Creation
 
 Yeap Finance champions decentralization by making vault creation entirely permissionless. This is a significant departure from many platforms requiring centralized approval or complex, slow DAO voting for new market listings.
 

@@ -5,7 +5,7 @@ sidebar_label: Vaults
 slug: /core-components/vaults
 ---
 
-## 2.1. Vaults: The Foundation of Liquidity
+# Vaults: The Foundation of Liquidity
 
 Vaults are the foundational smart contracts within Yeap Finance, serving as segregated, highly configurable pools for specific digital assets.
 

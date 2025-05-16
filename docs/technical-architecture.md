@@ -5,11 +5,11 @@ sidebar_label: Technical Architecture
 slug: /technical-architecture
 ---
 
-## 4. Technical Architecture
+# Technical Architecture
 
 Yeap Finance’s infrastructure is meticulously designed for security, efficiency, and scalability, primarily leveraging the unique strengths of the **Move programming language**, which is gaining prominence in blockchains like Aptos and SUI due to its strong safety features.
 
-### 4.1. Core Smart Contracts
+### Core Smart Contracts
 
 The protocol is composed of several key, interoperable smart contract modules:
 
@@ -21,7 +21,7 @@ The protocol is composed of several key, interoperable smart contract modules:
 * **Oracle Interface Contracts**: These contracts serve as secure intermediaries to fetch external data, primarily asset prices, from decentralized oracle networks. For LP tokens, these interfaces might connect to more specialized oracle solutions or on-chain TWAP modules.
 * **Factory Contracts**: These contracts are responsible for the permissionless deployment of new Vault instances and potentially for registering new, standardized Borrow Protocol templates.
 
-### 4.2. Smart Contract Interactions (High-Level)
+###  Smart Contract Interactions (High-Level)
 
 1.  A **Lender** interacts with a specific **Vault Contract** to deposit assets and receive IBTs.
 2.  A **Borrower** interacts with a specific **Borrow Protocol Contract** linked to one or more Vault Contracts.
@@ -94,7 +94,7 @@ graph LR
     class Lender,Borrower user;
 ```
 
-### 4.3. Advantages of the Move Language
+###  Advantages of the Move Language
 
 The choice of the Move language is a significant technical differentiator aimed at enhancing security, correctness, and developer productivity:
 
@@ -105,7 +105,7 @@ The choice of the Move language is a significant technical differentiator aimed 
 * **No "Drop" for Critical Resources**: Move can enforce that critical resources are explicitly accounted for.
 * **Type Safety and Data Integrity**: Move's strong static typing helps catch errors at compile time.
 
-### 4.4. Key Integrations
+### Key Integrations
 
 Yeap Finance is designed to be an integral part of the broader DeFi ecosystem:
 
@@ -114,7 +114,7 @@ Yeap Finance is designed to be an integral part of the broader DeFi ecosystem:
 * **Wallets and Dashboards**: Essential for user accessibility and management of positions.
 * **Other DeFi Protocols (Composability)**: IBTs are designed as standard fungible tokens for potential use elsewhere.
 
-### 4.5. Scalability and Performance Considerations
+### Scalability and Performance Considerations
 
 * **Modular Design for Independent Scaling**: Separation of Vaults and Borrow Protocols allows independent scaling.
 * **Efficient State Management**: Move's state model is designed for efficiency; contracts will be optimized.

@@ -5,11 +5,11 @@ sidebar_label: Security
 slug: /security
 ---
 
-## 6. Security and Risk Management
+# Security and Risk Management
 
 The security of user funds and the overall financial stability of the Yeap Finance protocol are paramount. A multi-faceted approach to risk management is employed, leveraging the Move language's safety features.
 
-### 6.1. Smart Contract Security
+### Smart Contract Security
 
 * **Move Language Benefits**: Resource-based model, reentrancy protection, formal verification capabilities, and type safety inherently reduce attack surfaces.
 * **Rigorous and Continuous Audits**:
@@ -20,7 +20,7 @@ The security of user funds and the overall financial stability of the Yeap Finan
 * **Modularity and Compartmentalization**: Helps contain the potential impact of vulnerabilities.
 * **Security-First Development Culture**: Prioritizing security at every stage of the development lifecycle.
 
-### 6.2. Financial Risk Mitigation
+### Financial Risk Mitigation
 
 * **Overcollateralization**: Primary defense against borrower default in Position and Leveraged LP Token Protocols. Vault creators set conservative LTV and LLTV ratios.
     * *Leveraged LP Tokens*: LTVs for LP tokens require extra caution, considering impermanent loss, asset volatility, liquidity depth, and oracle reliability.
@@ -30,18 +30,18 @@ The security of user funds and the overall financial stability of the Yeap Finan
 * **Liquidity Risk for Lenders (Bank Run Risk Mitigation)**: High utilization can temporarily prevent withdrawals. IRMs incentivize new deposits or repayments. Optional withdrawal queues/caps may be considered.
 * **Vault-Specific Reserve Funds**: Vaults can allocate a portion of fees to a reserve fund as a first line of defense against unexpected losses.
 
-### 6.3. Flash Loan Security
+### Flash Loan Security
 
 * **Atomic Execution Guarantee**: Loans and repayments must occur in the same transaction, enforced by the Move VM, eliminating direct capital loss from non-repayment.
 * **Reentrancy Protection**: Move language design protects against common reentrancy attacks.
 * **Potential Indirect Risks (Ecosystem Risk)**: Flash loans can be used to exploit vulnerabilities in *other* protocols. Yeap Finance aims to be robust against direct manipulation.
 
-### 6.4. Governance Risks
+### Governance Risks
 
 * **Vault-Level Governance Risks**: Malicious or incompetent creators could set up risky vaults. Users must perform due diligence.
 * **Protocol-Level Governance Risks (Future DAO)**: Standard DAO risks like voter apathy or malicious proposals apply if a $YEAP token and DAO are implemented.
 
-### 6.5. User Responsibility and Due Diligence: A Critical Note
+### User Responsibility and Due Diligence: A Critical Note
 
 Given the permissionless and customizable nature of Yeap Finance:
 

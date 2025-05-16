@@ -5,7 +5,7 @@ sidebar_label: Introduction
 slug: /introduction
 ---
 
-## 1. Introduction: The Evolution of DeFi Lending and the Yeap Finance Solution
+### The Evolution of DeFi Lending and the Yeap Finance Solution
 
 Decentralized Finance (DeFi) has undeniably revolutionized access to financial services, with lending protocols forming a cornerstone of this burgeoning ecosystem. They have unlocked new avenues for earning yield, accessing liquidity, and building novel financial applications. However, as the DeFi space has matured, the limitations of first-generation lending platforms have become increasingly apparent:
 
