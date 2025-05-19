@@ -16,7 +16,7 @@ Borrow Protocols are distinct, modular smart contract systems that interface wit
     * **Flashloan Protocol (Atomic Borrow & Repay)**: This protocol provides access to uncollateralized loans, with the critical condition that the borrowed amount plus a small, configurable fee must be repaid within the same blockchain transaction. Failure to repay results in the entire transaction being reverted. This is primarily used by developers and sophisticated traders for arbitrage, collateral swaps, liquidations, and other complex atomic operations.
 * **Extensibility**: The Yeap Finance architecture is designed to be highly extensible, allowing the community and third-party developers to create, propose, and (if approved by a vault's governance) integrate new, custom Borrow Protocols to meet emerging needs or introduce novel financial mechanisms.
 
-## 2.3. The Synergy of Vaults and Borrow Protocols
+## The Synergy of Vaults and Borrow Protocols
 
 (This content is also summarized in the main Architecture page, but can be detailed here again or expanded)
 
@@ -30,7 +30,7 @@ This decoupling means:
 
 *(Consider re-inserting the Mermaid diagram from section 2.3 of the whitepaper here if desired for more detail on this page, or link back to the Architecture page's diagram).*
 
-## 2.4. Operational Flow
+## Operational Flow
 
 1.  **Lending Process**:
     * Lenders identify a Yeap Finance vault that holds an asset they wish to lend and offers a risk/reward profile (defined by its IRM and supported Borrow Protocols) that aligns with their objectives.
